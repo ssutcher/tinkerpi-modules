@@ -1,0 +1,21 @@
+[Unit]
+Description=TinkerPi GPIO Bridge
+Wants=dev-gpiochip0.device
+After=dev-gpiochip0.device multi-user.target
+ConditionPathExists=/dev/gpiochip0
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ssutcher/gpio-bridge
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ssutcher/gpio-bridge/gpio-bridge.py
+Restart=on-failure
+RestartSec=2
+User=ssutcher
+SupplementaryGroups=gpio video
+PrivateDevices=no
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

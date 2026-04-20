@@ -12,9 +12,9 @@ Each folder is a standalone piece you can grab independently:
 |--------|-------------|
 | [MMM-Phish](modules/MMM-Phish/) | Phish concert countdown, setlists, and "on this day" history |
 | [MMM-Goose](modules/MMM-Goose/) | Goose concert countdown and setlists |
+| [MMM-TinkerPiHardware](modules/MMM-TinkerPiHardware/) | Bridge physical GPIO controls (switches, LEDs, rotary encoder) to MagicMirror |
+| [GPIO Bridge](gpio-bridge/) | Python service that owns GPIO pins and exposes an HTTP API |
 | [Navigation](navigation/) | Multi-page swipeable dashboard setup (MMM-pages + touch gestures) |
-
-More coming (GPIO hardware controls, etc).
 
 ## Getting started
 
