@@ -12,8 +12,9 @@ Each folder is a standalone piece you can grab independently:
 |--------|-------------|
 | [MMM-Phish](modules/MMM-Phish/) | Phish concert countdown, setlists, and "on this day" history |
 | [MMM-Goose](modules/MMM-Goose/) | Goose concert countdown and setlists |
+| [Navigation](navigation/) | Multi-page swipeable dashboard setup (MMM-pages + touch gestures) |
 
-More modules coming (navigation, GPIO hardware controls, etc).
+More coming (GPIO hardware controls, etc).
 
 ## Getting started
 
