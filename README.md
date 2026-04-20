@@ -15,10 +15,15 @@ Each folder is a standalone piece you can grab independently:
 
 More modules coming (navigation, GPIO hardware controls, etc).
 
+## Getting started
+
+- **[Windows Setup Guide](docs/windows-setup.md)** — Install MagicMirror on your Windows PC for local development
+- **[Development Workflow](docs/development-workflow.md)** — How to build, test locally, and deploy to the Pi
+
 ## Prerequisites
 
-- Raspberry Pi (any model) running [MagicMirror²](https://docs.magicmirror.builders/getting-started/installation.html)
-- Node.js >= 20
+- [MagicMirror²](https://docs.magicmirror.builders/getting-started/installation.html) installed (locally for dev, on Pi for production)
+- Node.js 22 or 24
 
 ## Installing a module
 
