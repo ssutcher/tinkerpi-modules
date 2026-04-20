@@ -1,0 +1,254 @@
+/* === FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&family=Press+Start+2P&display=swap');
+
+/* === RESET MM² defaults for our module === */
+.MMM-Goose {
+	font-family: 'Share Tech Mono', monospace !important;
+	color: #1a8aaa;
+	padding: 0 !important;
+}
+
+.MMM-Goose .module-content {
+	padding: 0;
+}
+
+/* === WRAPPER === */
+.goose-wrapper {
+	padding: 20px 28px;
+	position: relative;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* === LABELS === */
+.goose-label {
+	font-family: 'Press Start 2P', monospace;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #33aaff;
+	text-shadow: 0 0 10px rgba(51, 170, 255, 0.5);
+	margin-bottom: 14px;
+}
+
+/* === COUNTDOWN === */
+.goose-countdown-hero {
+	display: flex;
+	align-items: baseline;
+	gap: 12px;
+	margin-bottom: 4px;
+}
+
+.goose-countdown-big {
+	font-family: 'VT323', monospace;
+	font-size: 110px;
+	color: #33aaff;
+	line-height: 0.85;
+	text-shadow: 0 0 40px rgba(51, 170, 255, 0.5), 0 0 80px rgba(51, 170, 255, 0.15);
+	letter-spacing: 4px;
+}
+
+.goose-countdown-unit {
+	font-family: 'VT323', monospace;
+	font-size: 36px;
+	color: #225588;
+	text-shadow: 0 0 10px rgba(51, 170, 255, 0.2);
+}
+
+.goose-countdown-sub {
+	font-family: 'VT323', monospace;
+	font-size: 32px;
+	color: #3388aa;
+	text-shadow: 0 0 10px rgba(51, 170, 255, 0.25);
+	margin-bottom: 18px;
+	letter-spacing: 2px;
+}
+
+/* === VENUE === */
+.goose-venue {
+	font-family: 'VT323', monospace;
+	font-size: 42px;
+	color: #33ff99;
+	text-shadow: 0 0 16px rgba(51, 255, 153, 0.5);
+	letter-spacing: 3px;
+	line-height: 1;
+}
+
+.goose-city {
+	font-size: 15px;
+	color: #1a8a6a;
+	margin-top: 4px;
+	letter-spacing: 1px;
+}
+
+.goose-date {
+	font-size: 12px;
+	color: #0d5a4a;
+	margin-top: 2px;
+}
+
+.goose-tour {
+	font-size: 11px;
+	color: #225588;
+	margin-top: 4px;
+	font-style: italic;
+}
+
+.goose-offtour {
+	font-family: 'VT323', monospace;
+	font-size: 28px;
+	color: #3388aa;
+	margin-bottom: 18px;
+}
+
+.goose-loading {
+	font-family: 'VT323', monospace;
+	font-size: 24px;
+	color: #3388aa;
+}
+
+.goose-error {
+	font-size: 12px;
+	color: #aa3333;
+	margin-top: 8px;
+}
+
+/* === LAST SETLIST (bottom section) === */
+.goose-setlist-section {
+	margin-top: auto;
+	padding-top: 14px;
+	border-top: 1px solid #0a2a3a;
+}
+
+.goose-setlist-header {
+	font-family: 'Press Start 2P', monospace;
+	font-size: 7px;
+	color: #0d5a6a;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+
+.goose-set-row {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 3px;
+	align-items: baseline;
+}
+
+.goose-set-tag {
+	font-family: 'Press Start 2P', monospace;
+	font-size: 7px;
+	color: #33aaff;
+	text-shadow: 0 0 4px rgba(51, 170, 255, 0.3);
+	flex-shrink: 0;
+	width: 24px;
+	padding-top: 2px;
+}
+
+.goose-set-tag.goose-encore {
+	color: #ccaa33;
+	text-shadow: 0 0 4px rgba(204, 170, 51, 0.3);
+}
+
+.goose-set-songs {
+	font-size: 12px;
+	color: #1a6a7a;
+	line-height: 1.5;
+}
+
+/* === TONIGHT STATE === */
+.goose-tonight-label {
+	color: #ffaa00 !important;
+	text-shadow: 0 0 14px rgba(255, 170, 0, 0.6) !important;
+}
+
+.goose-tonight-big {
+	color: #ffaa00 !important;
+	text-shadow: 0 0 40px rgba(255, 170, 0, 0.5), 0 0 80px rgba(255, 170, 0, 0.15) !important;
+}
+
+.goose-tonight-unit {
+	color: #886600 !important;
+	text-shadow: 0 0 10px rgba(255, 170, 0, 0.2) !important;
+}
+
+.goose-tonight-sub {
+	color: #aa8800 !important;
+	text-shadow: 0 0 10px rgba(255, 170, 0, 0.25) !important;
+}
+
+.goose-tonight-venue {
+	color: #ffaa00 !important;
+	text-shadow: 0 0 16px rgba(255, 170, 0, 0.5) !important;
+}
+
+.goose-tonight-glow {
+	position: absolute;
+	top: -80px;
+	right: -80px;
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(circle, rgba(255, 170, 0, 0.05) 0%, transparent 70%);
+	pointer-events: none;
+}
+
+/* === LIVE STATE === */
+.goose-live-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	background: rgba(255, 50, 30, 0.1);
+	border: 1px solid #ff3333;
+	padding: 6px 16px;
+	margin-bottom: 6px;
+	box-shadow: 0 0 14px rgba(255, 50, 30, 0.2), inset 0 0 14px rgba(255, 50, 30, 0.05);
+}
+
+.goose-live-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ff3333;
+	animation: goose-pulse 1.5s ease-in-out infinite;
+	box-shadow: 0 0 10px rgba(255, 50, 30, 0.8);
+}
+
+@keyframes goose-pulse {
+	0%, 100% { opacity: 1; box-shadow: 0 0 10px rgba(255, 50, 30, 0.8); }
+	50% { opacity: 0.4; box-shadow: 0 0 20px rgba(255, 50, 30, 0.4); }
+}
+
+.goose-live-text {
+	font-family: 'Press Start 2P', monospace;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #ff3333;
+	text-shadow: 0 0 10px rgba(255, 50, 30, 0.5);
+}
+
+.goose-live-venue {
+	font-size: 14px;
+	color: #1a8a6a;
+	margin-bottom: 14px;
+	letter-spacing: 1px;
+}
+
+/* === BLINKING CURSOR === */
+.goose-cursor {
+	display: inline-block;
+	width: 9px;
+	height: 14px;
+	background: #33ff99;
+	animation: goose-blink 1s step-end infinite;
+	vertical-align: middle;
+	margin-left: 4px;
+	box-shadow: 0 0 6px rgba(51, 255, 153, 0.5);
+}
+
+@keyframes goose-blink {
+	0%, 50% { opacity: 1; }
+	51%, 100% { opacity: 0; }
+}

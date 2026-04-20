@@ -11,6 +11,7 @@ Each folder is a standalone piece you can grab independently:
 | Module | What it does |
 |--------|-------------|
 | [MMM-Phish](modules/MMM-Phish/) | Phish concert countdown, setlists, and "on this day" history |
+| [MMM-Goose](modules/MMM-Goose/) | Goose concert countdown and setlists |
 
 More modules coming (navigation, GPIO hardware controls, etc).
 
